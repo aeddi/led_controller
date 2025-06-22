@@ -1,0 +1,21 @@
+{
+    "wifi": {
+        "ssid": "<your_wifi_ssid_here>",
+        "password": "<your_wifi_password_here>"
+    },
+    "govee": {
+        "url": "https://developer-api.govee.com/v1/devices/control",
+        "data": {
+            "device": "<your_device_id_here>",
+            "model": "H6199",
+            "cmd": {
+                "name": "turn",
+                "value": ""
+            }
+        },
+        "headers": {
+            "Content-Type": "application/json",
+            "Govee-API-Key": "<your_api_key_here>"
+        }
+    }
+}
